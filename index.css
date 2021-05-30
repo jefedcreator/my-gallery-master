@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 40%;
+    margin: 5% auto;
+}
+
+.profilePhoto img{
+    height: 150px;
+    width: 50%;
+    border-radius: 16px;
+}
+
+.profilePhoto p{
+    font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0em;
+}
+
+.profilePhoto span{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+color: #A9A9A9;
+}
+
+.stats{
+height: 100%;
+width: 30%;
+background: #E5E5E5;
+border-radius: 12px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.stats p{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #4E5150;
+}
+
+.stats span{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #BDBDBD;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid-photos{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "div1 div2 div2"
+                        "div3 div3 div4"
+                        "div5 div6 div4";
+    text-align: center;
+    grid-gap:10px;
+}
+
+.grid-photos img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.photo1{
+    grid-area: div1;
+}
+
+.photo2{
+    grid-area: div2;
+}
+
+.photo3{
+    grid-area: div3;
+}
+
+.photo4{
+    grid-area: div4;
+}
+
+.photo5{
+    grid-area: div5;    
+}
+
+.photo6{
+    grid-area: div6;
+}
+
+footer{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 20%;
+    color: #B9BDCF;
+}
